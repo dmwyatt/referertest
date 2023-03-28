@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Referrer Example</title>
+</head>
+<body>
+  <h1>Referrer Example</h1>
+  <p id="referrer"></p>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var referrer = document.referrer;
+      document.getElementById('referrer').innerHTML = 'Referrer: ' + referrer;
+    });
+  </script>
+</body>
+</html>
